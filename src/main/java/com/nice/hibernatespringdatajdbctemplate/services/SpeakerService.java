@@ -14,4 +14,6 @@ public interface SpeakerService {
     List<Speaker> getAllSpeakers();
 
     List<Speaker> findByName(String name);
+
+    List<Speaker> findSlavenianSpeakers();
 }
